@@ -4,9 +4,9 @@ import Main from "./Main";
 
 function App() {
     return (
-        <Routes>
-            <Route path="/" element={<Main />} />
-        </Routes>
+        <div>
+            <Main/>
+        </div>
     );
 }
 
