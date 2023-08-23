@@ -1,0 +1,40 @@
+.header-link {
+    background-image: url("../images/Kulinar1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: #c7c7ef;
+    margin: 3px;
+    padding: 5px;
+    height: 180px; /* Устанавливаем высоту в 100% высоты видимого содержимого */
+    border-radius: 15px;
+}
+.h1-list{
+    font-style:italic;
+    text-align: left;
+
+
+    color: white;
+}
+.active-link {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    padding: 30px;
+}
+
+.active-link:active {
+    color: #de6b9c;
+}
+
+
+.footer-link {
+    background-color: #dbe8e6;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
