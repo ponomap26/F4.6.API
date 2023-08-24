@@ -39,6 +39,9 @@ Contributions are always welcome! If you find any issues or have suggestions for
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
+
+
+
 # Обучающее приложение Fullstack
 
 Данное приложение является учебным проектом Fullstack, разработанным с использованием React и Django Rest Framework.
