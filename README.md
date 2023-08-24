@@ -37,7 +37,7 @@ To get started with this application, follow the steps below:
 
 ## Contributing
 
-## Обучающее приложение Fullstack
+# Обучающее приложение Fullstack
 Данное приложение является учебным проектом Fullstack, разработанным с использованием React и Django Rest Framework.
 # Начало работы
 Для запуска приложения выполните следующие шаги:
