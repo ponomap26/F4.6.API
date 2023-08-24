@@ -2,12 +2,15 @@ import React from "react";
 import {Routes, Route} from "react-router-dom";
 // import Home from "./Home";
 import Main from "./Main.jsx";
-import Reciept from "./Reciept.jsx";
 import About from "./About.jsx";
 import Notfondpage from "./Notfondpage.jsx";
 import "../styles/App.css"
 import Layout from "./Layout.jsx";
 import Reciepts from "./Reciepts.jsx";
+import Reciept from "./Reciept.jsx";
+
+
+
 
 function App() {
     return (

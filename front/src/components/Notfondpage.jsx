@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 function Notfondpage(){
     return(
         <div>
-            This page doesn`t .Go <Link to="/">Главная</Link>
+            На этой странице ни чего нет <Link to="/">Главная</Link>
         </div>
     )
 }
