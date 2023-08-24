@@ -16,7 +16,7 @@ function Layout(){
             </header>
             <Outlet />
             <footer className={"footer-link"}>
-                2023 .
+                2023 г.
             </footer>
 
         </>
