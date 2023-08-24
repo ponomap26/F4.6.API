@@ -38,10 +38,11 @@ To get started with this application, follow the steps below:
 Contributions are always welcome! If you find any issues or have suggestions for improvements, please [open an issue](https://github.com/ponomap26/F4.6.API/issues) or submit a pull request.
 ## License
 This project is licensed under the [MIT License](LICENSE).
+....
 
 
 
-
+# F4.6.API
 # Обучающее приложение Fullstack
 
 Данное приложение является учебным проектом Fullstack, разработанным с использованием React и Django Rest Framework.
