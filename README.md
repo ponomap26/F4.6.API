@@ -16,6 +16,7 @@ To get started with this application, follow the steps below:
    pip install -r requirements.txt
   ```
 4. Start the server:
+
    ```
    python manage.py runserver
    ```
