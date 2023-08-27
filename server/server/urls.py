@@ -1,28 +1,30 @@
-from django.conf.urls.static import static
-from django.contrib import admin
-from django.template.defaulttags import url
 
-from django.urls import path, include
 
-from django.conf import settings
-from django.views.generic import TemplateView
-from rest_framework import routers, permissions
-from rest_framework.schemas import get_schema_view, openapi
+from django.urls import path,  re_path
 
-from api.views import ReceiptsList
+from drf_yasg import openapi
+from rest_framework.schemas import get_schema_view
 
-router = routers.DefaultRouter()
-router.register(r'api', ReceiptsList)
+from api import admin
+
+
+
+schema_view = get_schema_view(
+    openapi.Info(
+        title="Snippets API",
+        default_version='v1',
+        description="Test description",
+
+    ),
+    public=True,
+
+)
 
 urlpatterns = [
-    path('openapi', get_schema_view(
-        title="Your Project",
-        description="API for all things …"
-    ), name='openapi-schema'),
     path('admin/', admin.site.urls),
-    path('', include(router.urls)),
+    re_path(r'^swagger(?P\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
+    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
