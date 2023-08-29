@@ -1,46 +1,61 @@
-# F4.6.API
-# Fullstack Training App
-This application is an educational fullstack project built with React and Django Rest Framework.
-## Getting Started
-To get started with this application, follow the steps below:
-1. Clone the repository using the following command:
+# Информация о проекте F4.6.API
+
+Это приложение является образовательным проектом Fullstack, разработанным с использованием React и Django Rest Framework.
+
+## Начало работы
+
+Для запуска этого приложения выполните следующие шаги:
+
+1. Склонируйте репозиторий с помощью следующей команды:
+
    ```
    git clone https://github.com/ponomap26/F4.6.API
    ```
-2. Move into the server directory:
+
+2. Перейдите в директорию сервера: 
+
    ```
    cd server
    ```
-3. Install the server dependencies by running:
+
+3. Установите зависимости сервера, выполнив следующую команду:
+   
    ```
    pip install -r requirements.txt
-  ```
-4. Start the server:
+   ```
+
+4. Запустите сервер:
 
    ```
    python manage.py runserver
    ```
-    **Note:** Make sure you have Python 3+ installed.
-5. Move into the front directory:
-   ```
-   cd front
-   ```
-6. Install the client dependencies by running:
+
+   Примечание: Убедитесь, что у вас установлена Python версии 3+.
+
+5. Перейдите в директорию клиента:
+
+    ```
+    cd front
+    ```
+
+6. Установите зависимости клиента, выполнив следующую команду:
+
    ```
    npm install
    ```
 
-7. Start the client:
+7. Запустите клиентскую часть:
+
    ```
    npm start
    ```
-8. Open your web browser and visit `http://localhost:8080` to access the application.
-## Contributing
-Contributions are always welcome! If you find any issues or have suggestions for improvements, please [open an issue](https://github.com/ponomap26/F4.6.API/issues) or submit a pull request.
-## License
-This project is licensed under the [MIT License](LICENSE).
-....
 
+8. Откройте веб-браузер и посетите http://localhost:8080, чтобы получить доступ к приложению.
 
+## Внесение изменений и улучшений
 
+Ваши вклады всегда приветствуются! Если вы обнаружили ошибки или у вас есть предложения по улучшению, пожалуйста, [откройте проблему](https://github.com/ponomap26/F4.6.API/issues) или предложите запрос на включение изменений (pull request).
 
+## Лицензия
+
+Этот проект лицензирован в соответствии с [Лицензией MIT](LICENSE).
